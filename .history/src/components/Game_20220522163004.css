@@ -1,0 +1,17 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.startNewGame {
+    width: 200px;
+    height: 35px;
+    margin-botton: 25px;
+    cursor: pointer;
+    color: white;
+}
