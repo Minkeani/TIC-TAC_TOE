@@ -20,10 +20,6 @@ button {
 }
 
 button:hover {
-    background: #ff4684;;
+    background: #c23866;
     color: #fff;
-}
-
-.startNewGame {
-    margin: 15px;
 }

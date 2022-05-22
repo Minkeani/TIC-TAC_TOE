@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Game.css'
 import { calWin } from '../helper'
 import Board from './Board'
+import { within } from '@testing-library/react'
 
 export default function Game() {
 
@@ -36,7 +37,7 @@ export default function Game() {
   return (
     <div className='wrapper'>
         <a href='https://github.com/Minkeani/TIC-TAC_TOE'>
-          <p>Репозиторий</p>
+            <img src="https://w7.pngwing.com/pngs/555/573/png-transparent-github-commonjs-source-code-node-js-github-purple-mammal-cat-like-mammal.png" alt="" />
         </a>
         
         {/* <img src='src\img\GitHub-Mark-Light-32px.png' alt='git' href='https://github.com/Minkeani/TIC-TAC_TOE'/> */}

@@ -18,12 +18,3 @@ button {
     font-weight: 700;
     padding: 6px 12px;
 }
-
-button:hover {
-    background: #ff4684;;
-    color: #fff;
-}
-
-.startNewGame {
-    margin: 15px;
-}

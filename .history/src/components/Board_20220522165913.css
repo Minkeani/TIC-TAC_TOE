@@ -1,6 +1,6 @@
 .board {
-    width: 300px;
-    height: 300px; 
+    width: 50%;
+    height: 50%; 
     /* background-color: red; */
     display: flex;
     flex-wrap: wrap

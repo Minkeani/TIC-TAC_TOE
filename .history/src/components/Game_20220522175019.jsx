@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Game.css'
 import { calWin } from '../helper'
 import Board from './Board'
+import { within } from '@testing-library/react'
 
 export default function Game() {
 

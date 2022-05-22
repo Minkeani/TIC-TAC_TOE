@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Game.css'
 import { calWin } from '../helper'
 import Board from './Board'
+import { within } from '@testing-library/react'
 
 export default function Game() {
 
@@ -15,11 +16,11 @@ export default function Game() {
     const HandleClick = (index) => {
         const BoardCopy = [...board]
 
-        if(winner || BoardCopy[index]) return
+        if(winner || [...board][index]) return
 
-        BoardCopy[index] = xIs ? 'X' : 'O'
+        [...board][index] = xIs ? 'X' : 'O'
 
-        setBoard(BoardCopy)
+        setBoard([...board])
         setXIs(!xIs)
     }
 
